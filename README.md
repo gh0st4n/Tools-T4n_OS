@@ -1,21 +1,39 @@
 # Tools-T4n_OS
-Tools Utility Development T4n OS
 
-- T4n Installer :
+**Utility & Development Tools for T4n OS**
 
-T4n Installer adalah script installer yang terinspirasi dari void-installer
-Pada script ini ada bahasa nyeleneh yang gw sisipkan bahasa nya Atjeh,Indo-Kece dan Indo
-##### URL : https://github.com/gh0st4n/Tools-T4n_OS/tree/T4n-Installer
+Repository ini berisi kumpulan tools pendukung untuk pengembangan dan penggunaan **T4n OS**, berbasis Void Linux.
 
-- T4n-Maker :
+## 🔧 T4n Installer
 
-T4n-Maker adalah script Generator live ISO T4n-OS
-##### URL : https://github.com/gh0st4n/Tools-T4n_OS/tree/VUR-Helper
+Script installer T4n OS yang terinspirasi dari `void-installer`.
 
-- VUR-Helper :
+**Catatan:**
 
-VUR-Helper adalah Tools untuk menutupi kekurangan dari package official Void Linux(xbps)
-##### URL : https://github.com/gh0st4n/Tools-T4n_OS/tree/T4n-Maker
+* Mengandung bahasa campuran: **Aceh, Indo Kece, dan Bahasa Indonesia**
+* Ditujukan untuk pengguna yang paham dan siap ngulik sistem
 
-**Note:**
-### Apakan Dulu biar Gk apa Kali, Nya Cik :)
+🔗 **URL:**
+[T4n-Installer](https://github.com/gh0st4n/Tools-T4n_OS/tree/T4n-Installer)
+
+## 🛠️ T4n-Maker
+
+Generator **Live ISO T4n OS**.
+
+Tool ini digunakan untuk membangun ISO live secara otomatis sesuai kebutuhan T4n OS.
+
+🔗 **URL:**
+[T4n-Maker](https://github.com/gh0st4n/Tools-T4n_OS/tree/T4n-Maker)
+
+## 📦 VUR-Helper
+
+Tool tambahan untuk **menutupi kekurangan package resmi Void Linux (xbps)**.
+
+Digunakan sebagai helper agar workflow Void + T4n OS lebih fleksibel.
+
+🔗 **URL:**
+[VUR-Helper](https://github.com/gh0st4n/Tools-T4n_OS/tree/VUR-Helper)
+
+## ⚠️ Note
+
+> **Apakan dulu biar gk apa kali, nya cik 🙂**
