@@ -1,0 +1,45 @@
+#!/usr/bin/bash
+
+PKGS=(
+  # Void Repo
+  void-repo-multilib
+  void-repo-multilib-nonfree
+  void-repo-nonfree
+
+  # Wayland Package
+  wayland wayland-protocols
+  libwaylandpp xorg-server-xwayland
+  xwayland-satellite libinput wlr-randr
+  xdg-utils
+
+  # Service
+  elogind dbus NetworkManager lightdm
+  polkit pipewire wireplumber
+)
+
+service() {
+    # Enable Service
+    sudo ln -s /etc/sv/NetworkManager /var/service/
+    sudo ln -s /etc/sv/dbus /var/service/
+    sudo ln -s /etc/sv/elogind /var/service/
+    sudo ln -s /etc/sv/lightdm /var/service/
+    sudo ln -s /etc/sv/pipewire /var/service/
+    sudo ln -s /etc/sv/wireplumber /var/service/
+    
+    # Disable Service
+    #sudo rm /var/service/dhcpcd
+    #sudo sv stop dhcpcd
+
+    #sudo rm /var/service/wpa_supplicat
+    #sudo sv stop wpa_supplicat
+}
+
+main() {
+    sudo xbps-install -Su xbps
+    sudo xbps-install -Su
+    sudo xbps-install $(PKGS)
+    
+    service()
+}
+
+main()
